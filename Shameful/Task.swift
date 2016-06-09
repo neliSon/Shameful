@@ -6,8 +6,14 @@
 //  Copyright © 2016 Nelson Chow. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import RealmSwift
 
-class Task: NSObject {
-
+class Task: Object {
+    
+    // MARK: Properties
+    dynamic var name = ""
+    dynamic var date = NSDate()
+    dynamic var isDaily = false
+    
 }

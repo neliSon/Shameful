@@ -6,8 +6,12 @@
 //  Copyright © 2016 Nelson Chow. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import RealmSwift
 
-class TaskList: NSObject {
-
+class TaskList: Object {
+    
+    // MARK: Properties
+    let tasks = List<Task>()
+    
 }

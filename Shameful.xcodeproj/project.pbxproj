@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B057E5C1D08F311000B9B7D /* TaskManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B057E5A1D08F311000B9B7D /* TaskManagerVC.swift */; };
+		1B057E5D1D08F311000B9B7D /* TaskManagerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B057E5B1D08F311000B9B7D /* TaskManagerVC.xib */; };
+		1B057E601D08F3DD000B9B7D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B057E5E1D08F3DD000B9B7D /* HomeVC.swift */; };
+		1B057E611D08F3DD000B9B7D /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B057E5F1D08F3DD000B9B7D /* HomeVC.xib */; };
 		1B0CD5741D0622A8001405EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD5731D0622A8001405EF /* AppDelegate.swift */; };
-		1B0CD5761D0622A8001405EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD5751D0622A8001405EF /* ViewController.swift */; };
+		1B0CD5761D0622A8001405EF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD5751D0622A8001405EF /* MasterViewController.swift */; };
 		1B0CD5791D0622A8001405EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CD5771D0622A8001405EF /* Main.storyboard */; };
 		1B0CD57B1D0622A8001405EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CD57A1D0622A8001405EF /* Assets.xcassets */; };
 		1B0CD57E1D0622A8001405EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CD57C1D0622A8001405EF /* LaunchScreen.storyboard */; };
+		1B0CD58D1D06368B001405EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD58C1D06368B001405EF /* Task.swift */; };
+		1B0CD58F1D063A31001405EF /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD58E1D063A31001405EF /* TaskList.swift */; };
+		1B0CD5911D063D91001405EF /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD5901D063D91001405EF /* Mood.swift */; };
+		9B2C6756F4B9A3D633B4E087 /* Pods_Shameful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61248133CCE56C908F7B092F /* Pods_Shameful.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B057E5A1D08F311000B9B7D /* TaskManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerVC.swift; sourceTree = "<group>"; };
+		1B057E5B1D08F311000B9B7D /* TaskManagerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskManagerVC.xib; sourceTree = "<group>"; };
+		1B057E5E1D08F3DD000B9B7D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1B057E5F1D08F3DD000B9B7D /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		1B0CD5701D0622A8001405EF /* Shameful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shameful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0CD5731D0622A8001405EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B0CD5751D0622A8001405EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B0CD5751D0622A8001405EF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		1B0CD5781D0622A8001405EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B0CD57A1D0622A8001405EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0CD57D1D0622A8001405EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0CD57F1D0622A8001405EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0CD58C1D06368B001405EF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		1B0CD58E1D063A31001405EF /* TaskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		1B0CD5901D063D91001405EF /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		5DC23CAC41A74F32752ECB9B /* Pods-Shameful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shameful.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shameful/Pods-Shameful.debug.xcconfig"; sourceTree = "<group>"; };
+		61248133CCE56C908F7B092F /* Pods_Shameful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shameful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7F33BFC819A9F7576CD02F /* Pods-Shameful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shameful.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shameful/Pods-Shameful.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2C6756F4B9A3D633B4E087 /* Pods_Shameful.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				1B0CD5721D0622A8001405EF /* Shameful */,
 				1B0CD5711D0622A8001405EF /* Products */,
+				35543D9C45D8B6DCA986D152 /* Pods */,
+				5EEAC86BBAD48C2E0A6BBBD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,78 @@
 		1B0CD5721D0622A8001405EF /* Shameful */ = {
 			isa = PBXGroup;
 			children = (
-				1B0CD5731D0622A8001405EF /* AppDelegate.swift */,
-				1B0CD5751D0622A8001405EF /* ViewController.swift */,
-				1B0CD5771D0622A8001405EF /* Main.storyboard */,
-				1B0CD57A1D0622A8001405EF /* Assets.xcassets */,
-				1B0CD57C1D0622A8001405EF /* LaunchScreen.storyboard */,
-				1B0CD57F1D0622A8001405EF /* Info.plist */,
+				1B0CD5891D0622F7001405EF /* Model */,
+				1B0CD5881D0622EF001405EF /* Controller */,
+				1B0CD5871D0622E9001405EF /* View */,
+				1B0CD5861D0622E6001405EF /* UI */,
+				1B0CD5851D0622DE001405EF /* Assets */,
 			);
 			path = Shameful;
+			sourceTree = "<group>";
+		};
+		1B0CD5851D0622DE001405EF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CD57A1D0622A8001405EF /* Assets.xcassets */,
+				1B0CD57F1D0622A8001405EF /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1B0CD5861D0622E6001405EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CD5771D0622A8001405EF /* Main.storyboard */,
+				1B057E5F1D08F3DD000B9B7D /* HomeVC.xib */,
+				1B057E5B1D08F311000B9B7D /* TaskManagerVC.xib */,
+				1B0CD57C1D0622A8001405EF /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1B0CD5871D0622E9001405EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1B0CD5881D0622EF001405EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CD5731D0622A8001405EF /* AppDelegate.swift */,
+				1B0CD5751D0622A8001405EF /* MasterViewController.swift */,
+				1B057E5A1D08F311000B9B7D /* TaskManagerVC.swift */,
+				1B057E5E1D08F3DD000B9B7D /* HomeVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B0CD5891D0622F7001405EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CD58C1D06368B001405EF /* Task.swift */,
+				1B0CD58E1D063A31001405EF /* TaskList.swift */,
+				1B0CD5901D063D91001405EF /* Mood.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35543D9C45D8B6DCA986D152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DC23CAC41A74F32752ECB9B /* Pods-Shameful.debug.xcconfig */,
+				6B7F33BFC819A9F7576CD02F /* Pods-Shameful.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EEAC86BBAD48C2E0A6BBBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61248133CCE56C908F7B092F /* Pods_Shameful.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B0CD5821D0622A8001405EF /* Build configuration list for PBXNativeTarget "Shameful" */;
 			buildPhases = (
+				9671DCBA22830A09D156330F /* Check Pods Manifest.lock */,
 				1B0CD56C1D0622A8001405EF /* Sources */,
 				1B0CD56D1D0622A8001405EF /* Frameworks */,
 				1B0CD56E1D0622A8001405EF /* Resources */,
+				9529C4EC89A8CE5BE827E322 /* Embed Pods Frameworks */,
+				66385754D1571ACAB960320E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B0CD57E1D0622A8001405EF /* LaunchScreen.storyboard in Resources */,
+				1B057E5D1D08F311000B9B7D /* TaskManagerVC.xib in Resources */,
+				1B057E611D08F3DD000B9B7D /* HomeVC.xib in Resources */,
 				1B0CD57B1D0622A8001405EF /* Assets.xcassets in Resources */,
 				1B0CD5791D0622A8001405EF /* Main.storyboard in Resources */,
 			);
@@ -130,13 +220,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66385754D1571ACAB960320E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shameful/Pods-Shameful-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9529C4EC89A8CE5BE827E322 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shameful/Pods-Shameful-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9671DCBA22830A09D156330F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B0CD56C1D0622A8001405EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0CD5761D0622A8001405EF /* ViewController.swift in Sources */,
+				1B0CD5911D063D91001405EF /* Mood.swift in Sources */,
+				1B057E601D08F3DD000B9B7D /* HomeVC.swift in Sources */,
+				1B0CD58F1D063A31001405EF /* TaskList.swift in Sources */,
+				1B0CD5761D0622A8001405EF /* MasterViewController.swift in Sources */,
+				1B0CD58D1D06368B001405EF /* Task.swift in Sources */,
 				1B0CD5741D0622A8001405EF /* AppDelegate.swift in Sources */,
+				1B057E5C1D08F311000B9B7D /* TaskManagerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +390,7 @@
 		};
 		1B0CD5831D0622A8001405EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC23CAC41A74F32752ECB9B /* Pods-Shameful.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shameful/Info.plist;
@@ -258,6 +402,7 @@
 		};
 		1B0CD5841D0622A8001405EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7F33BFC819A9F7576CD02F /* Pods-Shameful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shameful/Info.plist;
@@ -286,6 +431,7 @@
 				1B0CD5841D0622A8001405EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
